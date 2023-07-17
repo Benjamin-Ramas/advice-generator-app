@@ -1,0 +1,95 @@
+*{
+    font-family: 'Manrope', sans-serif;
+}
+
+a{
+    text-decoration: none;
+    color: hsl(150, 100%, 80%);;
+}
+
+body{
+    margin: 0;
+    background-color: hsl(218, 23%, 16%);
+}
+
+#backgroundImage{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    opacity: 0.7;
+}
+
+.adviceBox{
+    background-color: hsl(217, 19%, 24%);
+    margin: auto;
+    margin-top: 14rem;
+    border-radius: 1rem;
+    width: 33.75rem;
+    padding-top: 2.2rem;
+}
+
+#adviceNum{
+    font-size: 1em;
+    color: hsl(150, 100%, 66%);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 0.17em;
+}
+
+#adviceText{
+    font-size: 1.75em;
+    text-align: center;
+    margin: 0 3rem;
+    margin-top: 1.5rem;
+    color: hsl(193, 38%, 86%);
+}
+
+.divider{
+    display: block;
+    margin: auto;
+    margin-top: 2.3rem;
+    margin-bottom: 0.4rem;
+}
+
+.generateButton{
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+    display: block;
+    margin: auto;
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+    position: relative;
+    top: 2.1rem;
+    cursor: pointer;
+}
+
+.generateButton:hover{
+    box-shadow: 0 0 20px 0px hsl(150, 100%, 66%);
+}
+
+.generateButton:active{
+    background-color: hsl(200, 100%, 80%);
+    box-shadow: 0 0 20px 0px hsl(200, 100%, 80%);
+}
+
+.generateButton img{
+    margin: auto;
+}
+
+.attribution{
+    margin: auto;
+    text-align: center;
+    margin-top: 10rem;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    color: hsl(193, 38%, 86%);
+}
+
+@media only screen and (max-width: 560px) {
+    .adviceBox{
+        width: 90%;
+    }
+}
